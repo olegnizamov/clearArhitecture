@@ -8,7 +8,7 @@ namespace clearArhitecture
         {
             Console.WriteLine("RobotStartWork");
             var robot = new Robot();
-            robot.StartWork(@"F:\C#\clear_arhitecture\clearArhitecture\inputCommands.txt");
+            robot.StartWork(@"F:\Высшая Школа Программирования Сергея Бобровского\Ясная Архитектура\code\clearArhitecture\inputCommands.txt");
             Console.WriteLine("RobotEndWork");
         }
     }

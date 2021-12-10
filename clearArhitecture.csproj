@@ -38,7 +38,10 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Library\Robot.cs" />
+        <Compile Include="Library\IRobotCleaner.cs" />
+        <Compile Include="Library\Position.cs" />
+        <Compile Include="Library\RobotCleaner.cs" />
+        <Compile Include="Library\State.cs" />
         <Compile Include="Library\Tools.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

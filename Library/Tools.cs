@@ -1,9 +1,7 @@
-namespace clearArhitecture
+using System;
+
+namespace clearArhitecture.Library
 {
-    public class Tools
-    {
-        public const string water = "water";
-        public const string soap = "soap";
-        public const string brush = "brush";
-    }
+   [Flags]
+    internal enum Tools { water = 1, soap = 2, brush = 4 };
 }

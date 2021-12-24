@@ -41,6 +41,7 @@
         <Compile Include="Library\ApiClass.cs" />
         <Compile Include="Library\ConcatenativeStyleRobot.cs" />
         <Compile Include="Library\IRobotCleaner.cs" />
+        <Compile Include="Library\MonadicStateApi.cs" />
         <Compile Include="Library\Position.cs" />
         <Compile Include="Library\RobotCleaner.cs" />
         <Compile Include="Library\State.cs" />
